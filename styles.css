@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #131518;
+  color: #fff;
+  font-family: "Overpass";
+
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 412px;
+  height: 416px;
+
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container1 {
+  padding: 32px;
+}
+
+.starContainer {
+  width: 100%;
+}
+
+.starCircle {
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+  background: #262e38;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.starImg {
+  width: 16px;
+  height: 16px;
+}
+
+h1.text {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+p.text2 {
+  margin-top: 7px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #969fad;
+}
+
+.rating {
+  margin-top: 24px;
+  justify-content: space-evenly;
+
+  display: flex;
+  gap: 21px;
+}
+
+.ratingSelect {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  background: #262e38;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #7c8798;
+  cursor: pointer;
+}
+
+.ratingSelect:hover {
+  background: #7c8798;
+  color: white;
+}
+
+.ratingClass {
+  color: white;
+  background: #fc7614;
+}
+
+.buttonSumbit {
+  margin-top: 32px;
+  max-width: 341px;
+  height: 45px;
+
+  background: #fc7614;
+  border: none;
+  border-radius: 22.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.buttonSumbit:hover {
+  background: #fff;
+  color: #fc7614;
+}
+
+/* CARD 2 */
+
+.container2 {
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 36px;
+  text-align: center;
+}
+
+.paperImg {
+  width: 162px;
+  height: 108px;
+}
+
+.textH2 {
+  background: #262e38;
+  border-radius: 22.5px;
+
+  width: 193px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #fc7614;
+}
+
+.textH1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.textH3 {
+  margin-top: -25px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #969fad;
+}
+
+@media screen and (max-width: 464px) {
+  body {
+    padding: 0 24px;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  body {
+    padding: 0 10px;
+  }
+  .ratingSelect {
+    width: 35px;
+    height: 35px;
+  }
+}
