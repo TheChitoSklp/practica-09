@@ -29,7 +29,7 @@ function handleSubmit(e) {
   const card2 = document.querySelector(".container2");
   card2.style.cssText = "display: flex";
 
-  const ratingFeedback = document.querySelector(".text2");
+  const ratingFeedback = document.querySelector(".textH2");
   const feedback = document.createTextNode(`You selected ${value} out of 5`);
   ratingFeedback.innerHTML = "";
   ratingFeedback.appendChild(feedback);
